@@ -1,5 +1,8 @@
 body {
-background-color: black;
+    /* display: flex;
+    min-height: 100vh;
+    flex-direction: column; */
+    background-color: #F8F4E9;
 }
 
 .nav-wrapper {
@@ -8,17 +11,24 @@ background-color: black;
     color:white;
 }
 
+nav {
+    background-color: #E58266;
+}    
+
 h1 {
     text-align: center;
-    color: white;
+    color: #E58266;
 }
 
 #projects-title {
 text-align: center;
 }
 
-.card-image-simon{
-    background-image: url(https://i.imgur.com/vPzDgoc.png);
+.card {
+    display: grid;
+    justify-items: center;
 }
+
+
 
 
