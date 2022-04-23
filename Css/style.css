@@ -2,10 +2,9 @@ body {
 background-color: black;
 }
 
-nav-wrapper {
+.nav-wrapper {
     text-align: center;
     font-size: 18px;
-    margin: 25px;
     color:white;
 }
 
