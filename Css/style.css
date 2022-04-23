@@ -1,16 +1,25 @@
 body {
-background-color: white;
+background-color: black;
 }
 
 nav-wrapper {
     text-align: center;
     font-size: 18px;
     margin: 25px;
-    color:black;
+    color:white;
 }
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+#projects-title {
+text-align: center;
+}
+
+.card-image-simon{
+    background-image: url(https://i.imgur.com/vPzDgoc.png);
 }
 
 
