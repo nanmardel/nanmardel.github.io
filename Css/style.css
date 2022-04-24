@@ -2,7 +2,8 @@ body {
     /* display: flex;
     min-height: 100vh;
     flex-direction: column; */
-    background-color: #F8F4E9;
+    background-color: white;
+    background-image: url(https://i.imgur.com/XL8hELR.jpg);
 }
 
 .nav-wrapper {
@@ -18,7 +19,13 @@ nav {
 h1 {
     text-align: center;
     color: #E58266;
+    font-family: 'Square Peg', cursive;
+    font-size: 90px;
 }
+
+
+
+/* Projects */
 
 #projects-title {
 text-align: center;
@@ -29,6 +36,23 @@ text-align: center;
     justify-items: center;
 }
 
+.card-title{
+    color: #E58266;
+}
+
+/* Resume */
+
+#text {
+    font-size: 35px;
+    color:#E58266;
+    
+}
+
+#resume {
+    font-size: 20px;
+    margin:25px;
+
+}
 
 
 
