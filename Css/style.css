@@ -1,9 +1,9 @@
 body {
-    /* display: flex;
+    display: flex;
     min-height: 100vh;
-    flex-direction: column; */
-    background-color: white;
-    background-image: url(https://i.imgur.com/XL8hELR.jpg);
+    flex-direction: column;
+    background-color: #white;
+    
 }
 
 .nav-wrapper {
@@ -12,13 +12,11 @@ body {
     color:white;
 }
 
-nav {
-    background-color: #E58266;
-}    
+  
 
 h1 {
     text-align: center;
-    color: #E58266;
+    color: black;
     font-family: 'Square Peg', cursive;
     font-size: 90px;
 }
@@ -34,12 +32,18 @@ text-align: center;
 .card {
     display: grid;
     justify-items: center;
+    
 }
 
 .card-title{
     color: #E58266;
 }
 
+.row {
+    display: flex;
+    
+    margin-right: 400px;
+}
 /* Resume */
 
 #text {
@@ -51,7 +55,11 @@ text-align: center;
 #resume {
     font-size: 20px;
     margin:25px;
+}
 
+.contact-info {
+    display:grid;
+    justify-items: center;
 }
 
 
