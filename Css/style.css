@@ -1,8 +1,9 @@
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #white;
+    background-color: white;
     
 }
 
@@ -20,8 +21,6 @@ h1 {
     font-family: 'Square Peg', cursive;
     font-size: 90px;
 }
-
-
 
 /* Projects */
 
@@ -44,6 +43,12 @@ text-align: center;
     
     margin-right: 400px;
 }
+.card-content {
+    width: 80%;
+    max-width: 320px;
+    margin: auto;
+}
+
 /* Resume */
 
 #text {
@@ -62,5 +67,6 @@ text-align: center;
     justify-items: center;
 }
 
+ 
 
 
