@@ -14,17 +14,28 @@ body {
 }
 
 .nav-wrapper a:hover {
-    background-color: #EEF6F7;
     color: #073f93;
-  }
+}
 
-  
+
 
 h1 {
     text-align: center;
     color: #073f93;
     font-family: 'Square Peg', cursive;
     font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #073f93;
+    font-size: 50px;
+    font-family: 'Square Peg', cursive;
+    padding-right: 70px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -36,14 +47,36 @@ main {
     
 }
 
+button {
+    background-color: #EFEEED;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 9px;
+}
+
+a {
+    color: #073f93;
+}
+button a:hover {
+    background-color: #c6c4c1;
+}
 footer.page-footer {
     padding-top: 0;
     text-align: right;
 }
 
-.photo {
-    
+.myphoto {
+    float: left;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 10px;
 }
+
+
+.aboutme {
+    padding-top: 50px;
+}
+
 /* Projects */
 
 #projects-title {
