@@ -88,6 +88,7 @@ footer.page-footer {
     padding-bottom: 200px;
     padding-left: 30px;
     padding-right: 10px;
+    width: 250px;
 }
 
 
@@ -104,7 +105,8 @@ text-align: center;
 .card {
     display: grid;
     justify-items: center;
-    
+    justify-content: center; 
+    background-color: #F2C6A0;
 }
 
 .row {
@@ -122,9 +124,6 @@ text-align: center;
     color: #690c0c;
 }
 
-.card{
-    background-color: #F2C6A0;
-}
 
 #project-title {
     color: #F2C6A0;
@@ -159,4 +158,26 @@ text-align: center;
 
 .link {
     color: #731A1A;
+}
+
+@media screen and (max-width: 480px) {
+    .myphoto {
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 50px;
+        width: 250px;
+    }
+
+    .aboutme {
+        padding-top: 40px;
+    }
+    h2 {
+        text-align: center;
+        color: #26010B;
+        font-size: 50px;
+        font-family: 'Square Peg', cursive;
+        padding-right: 40px;
+    }
 }
