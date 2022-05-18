@@ -195,4 +195,41 @@ text-align: center;
         text-align: center;
         margin-right: 10px;
     }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        padding: 10px;
+    }
+
+    main {
+        flex: 1 0 auto;
+        width: 63%;
+        position: relative;
+        background-color: #F2C6A0;
+        margin: 0 auto;
+        
+    }
+
+    .card {
+        display: grid;
+        justify-items: center;
+        justify-content: left; 
+        background-color: #F2C6A0;
+        padding: 80px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    .card .card-content {
+        width: 170%; 
+        text-align:left;
+        padding: 0px;
+        
+    }
+
+    .card .card-content p {
+        text-align: left;
+    }
+    
 }
